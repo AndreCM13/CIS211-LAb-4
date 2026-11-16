@@ -10,7 +10,7 @@ import streamlit as st
 club_info = {
     "name": "Andre's Basketball Club",
     "day": "Monday, Wednesday, Friday",
-    "time": "three o'clock Monday and Wednesday, two o'clock Friday",",
+    "time": "three o'clock Monday and Wednesday, two o'clock Friday"
 }
 
 # TODO 2: Replace these sample strings with at least three relevant activities.
