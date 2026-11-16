@@ -8,7 +8,7 @@ import streamlit as st
 # TODO 1: Replace these values with your own fictional club or service details.
 # Keep at least three key-value pairs. You may add more.
 club_info = {
-    "name": "Basketball Club",
+    "name": "Andre's Basketball Club",
     "day": "Monday, Wednesday, Friday",
     "time": "three_pm, three_pm, two_pm",
 }
@@ -22,12 +22,12 @@ activities = [
 ]
 
 st.title(club_info["name"])
-st.caption("A fictional CIS 211 course project. These are not real campus arrangements.")
+st.caption("Welcome to Andre's Basketball club. Come train and get some buckets")
 
 # Remove this starter message when your page is complete.
-st.write("Starter page: complete the TODO sections using the Lab 4 guide.")
+st.write("Welcome to Andre's Basketball club. Come train and get some buckets.")
 
-st.header("About this club or service")
+st.header("Come every Monday, Wednesday, and Friday to learn how to get better at basketball ")
 # TODO 3: Use st.markdown() to write your own two- or three-sentence introduction.
 # Include both **bold** and *italic* text inside your Python string.
 # The handout explains triple quotes if your Markdown spans several lines.
