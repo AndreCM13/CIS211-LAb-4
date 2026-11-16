@@ -46,15 +46,18 @@ st.write("Time:", club_info["time"])
 # Give the displayed values meaningful labels such as Day and Time.
 
 st.header("Prepare for a visit")
-st.markdown("""
-- Bring your basketball shoes.
-- Bring a water bottle.
-- Wear comfortable athletic clothing.
-- Come on time
-- Bring your confidence)
 
-# Add one meaningful, working external Markdown link.
+st.markdown("Bring your basketball shoes."
+            "Bring a water bottle." 
+            "Wear comfortable athletic clothing." 
+            "Come on time." 
+            "Bring your confidence")
 
+st.markdown("[https://github.com/AndreCM13/CIS211-LAb-4/edit/main/app.py)")
+# Add one meaningful, working external Markdown link. 
 # TODO 7: Add at least three comments explaining your OWN completed code.
+Comment 1(My code is explaining to those who would want to join my basketball club)
+Comment 2( Another part of my code is to explain the actvites being done in the club)
+Comment 3( Another is telling the days and time of when the club is starts and how to prepare)
 # TODO 8: Perform both change checks and complete the private submission template.
 # Upload your final source files, links, reflection, and app screenshots to Brightspace.
