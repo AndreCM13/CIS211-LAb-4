@@ -10,7 +10,7 @@ import streamlit as st
 club_info = {
     "name": "Andre's Basketball Club",
     "day": "Monday, Wednesday, Friday",
-    "time": "three_pm, three_pm, two_pm",
+    "time": "3:00 PM Monday and Wednesday, 2:00 PM Friday",",
 }
 
 # TODO 2: Replace these sample strings with at least three relevant activities.
@@ -19,6 +19,7 @@ activities = [
     "Stretching",
     "Suicide Run",
     "Shooting training",
+    "Dribbling Drills",
 ]
 
 st.title(club_info["name"])
@@ -27,21 +28,31 @@ st.caption("Welcome to Andre's Basketball club. Come train and get some buckets"
 # Remove this starter message when your page is complete.
 st.write("Welcome to Andre's Basketball club. Come train and get some buckets.")
 
-st.header("Come every Monday, Wednesday, and Friday to learn how to get better at basketball ")
+st.header("Come every Monday, Wednesday, and Friday to learn how to improve your basketball skills like shooting, dribbling, and passing")
 # TODO 3: Use st.markdown() to write your own two- or three-sentence introduction.
 # Include both **bold** and *italic* text inside your Python string.
 # The handout explains triple quotes if your Markdown spans several lines.
 
-st.header("Activities or services")
+st.header("Activities")
+for activity in activities:
+    st.write(activity)
 # TODO 4: Write a for loop that displays every value from activities.
 # Use Streamlit output inside the loop. Do not type each activity again.
 
-st.header("Details")
+st.header("Basketball Schedule")
+st.write("Day:", club_info["day"])
+st.write("Time:", club_info["time"])
 # TODO 5: Display at least two dictionary values by looking them up by key.
 # Give the displayed values meaningful labels such as Day and Time.
 
 st.header("Prepare for a visit")
-# TODO 6: Use st.markdown() to display a three-item Markdown list.
+st.markdown("""
+- Bring your basketball shoes.
+- Bring a water bottle.
+- Wear comfortable athletic clothing.
+- Come on time
+- Bring your confidence)
+
 # Add one meaningful, working external Markdown link.
 
 # TODO 7: Add at least three comments explaining your OWN completed code.
