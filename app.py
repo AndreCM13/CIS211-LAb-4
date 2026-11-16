@@ -9,8 +9,8 @@ import streamlit as st
 # Keep at least three key-value pairs. You may add more.
 club_info = {
     "name": "Basketball Club",
-    "day": "Choose a fictional meeting day",
-    "time": "Choose a fictional meeting time",
+    "day": "Monday, Wednesday, Friday",
+    "time": "three_pm, three_pm, two_pm",
 }
 
 # TODO 2: Replace these sample strings with at least three relevant activities.
